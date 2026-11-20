@@ -1,0 +1,12 @@
+title = "QuestBoard gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Test fixtures and documentation examples"
+paths = [
+  '''tests/''',
+  '''docs/''',
+  '''load/''',
+]
